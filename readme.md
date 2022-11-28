@@ -13,6 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [API reference](#api-reference)
 * [Learn More](#learn-more)
 
+
 ## SRC Structure
 * ### `Assets/Images`
 Assets/images used in admin UI.
@@ -49,25 +50,21 @@ These type declarations add support for importing resource files such as bmp, gi
 * ### `serviceWorker.js`
 This is optional code is used to register a service worker.
 
+
 ## Admin UI menu bar categories
 ### `Welcome Page`
 welcome page for the logged in user, ex: WELCOME: Username
-
 ### `Alarms`
 * alarms: list all the alarms related to (website & application) 
 * on call table: list on call (se & qa) employees who are on call duty, and the CET plus CTO with information to contact them.
-
 ### `Approve/Reject data`
 * Get Approve or Reject on user pictures and description
 * Clean Pool.
-
 ### `Reports`
 * Get Reports from user to another
 * Clean Pool.
-
 ### `Investigation Cases`
 * Get Investigation Cases.
-
 ### `User`
 The needed information for/about users.
 * #### 1- Advanced: get user advanced mode
@@ -81,14 +78,12 @@ The needed information for/about users.
 * #### 9- Payments: search by user id & by transaction id
 * #### 10- Referral Code Usage: to get the User Referral Code Usage
 * #### 11- Promo Code Usage: to get the Promo Code Usage
-
 ### `CSR`
 The needed information for/about CSR.
 * #### 1- Change Password
 * #### 2- My CSR Performance
 * #### 3- My CSR Mistakes
 * #### 4- My CSR Prev Actions
-
 ### `Auditor`
 The needed information for/about auditors.
 * #### 1- Audit: view/audit admin events
@@ -104,14 +99,12 @@ The needed information for/about auditors.
   * Generate: Generate Promo Code
   * Get: get All Promo Codes
   * Edit: Update Promo Code
-  * Get: get Promo Code Usage
-
+  * Get: get Promo Code Usage  
 ### `Supervisor`
 The needed information for/about supervisors.
 * #### 1- Permission: view/edit admin permission
 * #### 2- Supervise: Supervise Admin Audits
 * #### 3- Supervised Events: View Supervised Audit Events
-
 ### `Developer`
 The needed information for/about developers.
 * #### 1- Flagged Connections: to get Flagged Connections Dashboard
@@ -123,22 +116,17 @@ The needed information for/about developers.
   * Users Payments
 * #### 5- Flush: In order to press the Flush hosts we need Email, Password and Pass Code
   ##### note: it is danger to press.
-
 ### `Shareholder`
 * Get Shareholders Update: to get the shareholder by Date Range.
 
 panel charts for `Total Users`, `New Users`, `Total Conversations`, `New Conversations`, `Total Messages`, `New Messages`, `Sales (USD)` & `Marketing Expenses (USD)`
 
-
 ## Installation
-
 run the below code to download all the modules needed:
 ```bash
 yarn
 ```
-
 ### Available Scripts
-
 In the project directory, you can run:
  * run the below command so the script generates the required files and folders to start the React application and run it on the browser. This allows you to focus on coding your application without having to bother with build configurations.
 ```bash
@@ -170,7 +158,6 @@ yarn test
 ```
  * run the below command to removes Create React App scripts and preset configurations and copies build dependencies, configuration files, and scripts into the app directory. If you do this, you can't go back to using Create React App on your project!
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
 ```bash
 yarn eject
 ```
@@ -182,30 +169,20 @@ yarn deploy
 ```bash
 yarn active-branch
 ```
-
-<a name="api-reference"></a>
 ## API reference
 Localhost API: [Localhost](http://localhost:3000)
 
 Admin Staging API: [staging](https://admin-staging.alkhattaba.app/).
 
 Admin Development API: [development](https://admin-production.alkhattaba.app/)
-
-<a name="learn-more"></a>
 ## Learn More
-
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 #### [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
 #### [Analyzing the Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
 #### [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
 #### [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 #### [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
 #### [yarn build fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
