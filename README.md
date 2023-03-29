@@ -126,8 +126,8 @@ The needed information for/about developers.
   * User
   * Users Login
   * Users Payments
-* #### 6-Turn Off Alarms: Turn Off Alarms
-* #### 7-Payments Information: Payments Information Dashboard
+* #### 6- Turn Off Alarms: Turn Off Alarms
+* #### 7- Payments Information: Payments Information Dashboard
 * #### 8- Flush: In order to press the Flush hosts we need Email, Password and Pass Code
   ##### note: it is danger to press.
 ### `Shareholder`
